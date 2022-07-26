@@ -17,21 +17,22 @@ scanf("%f", &valor);
 if (valor == 0)
 {
     printf("O VALOR NÃO PODE SER NULO!");
-    return 0;
+    system("BREAK");
 
-} else
+} else{
 printf("e qual foi a quantidade");
-
-if (quantidade == 0)
-{
+    scanf("%d", &quantidade);
+    if (quantidade == 0)
+    {
     printf("A QUANTIDADE NÃO PODE SER IGUAL A ZERO");
-    return 0;
-
-} else
-scanf("%d", &quantidade);
+    system("BREAK");
+    } else {
 //saida
 aux = valor*quantidade;
 printf("deu %f reais, crédito ou debito? KKK", aux);
+    }
 
+system("PAUSE");
 return 0;
+}
 }
