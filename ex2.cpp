@@ -29,7 +29,7 @@ printf("e qual foi a quantidade");
     } else {
 //saida
 aux = valor*quantidade;
-printf("deu %f reais, crédito ou debito? KKK", aux);
+printf("deu %f reais, credito ou debito?", aux);
     }
 
 system("PAUSE");
