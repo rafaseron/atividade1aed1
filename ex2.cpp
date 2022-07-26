@@ -4,12 +4,12 @@
 using namespace std;
 
 int main (){
-
+// declaração de variáveis
 float valor = 0;
 int quantidade;
 float aux; 
 
-// boas vindas
+//processamento
 printf("bem vindo a subway");
 printf(" o senhor comprou o lanche de quantos reais?");
 scanf("%f", &valor);
@@ -31,6 +31,7 @@ if (quantidade == 0)
 scanf("%d", &quantidade);
 aux = valor*quantidade;
 printf("deu %f reais, crédito ou debito? KKK", aux);
+//saida
 
 return 0;
 }
