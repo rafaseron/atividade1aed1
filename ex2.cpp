@@ -29,9 +29,9 @@ if (quantidade == 0)
 
 } else
 scanf("%d", &quantidade);
+//saida
 aux = valor*quantidade;
 printf("deu %f reais, crédito ou debito? KKK", aux);
-//saida
 
 return 0;
 }
